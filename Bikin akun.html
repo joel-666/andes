@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<link rel="stylesheet" href="style register.css">
+<body>
+    <form onsubmit="return cihuy()" action="Profil.html" method="get">
+       <div style="text-align: center;"> <h4 style="text-align: center;">Cihuyyy Mari bikin Akun dulu</h4>
+
+        <img style=" text-align:center 100px; width: 100px;" src="C:\Users\imam\Pictures\cihuy.png" alt=""><br><br></div>
+
+ <div class="inputkeren">  
+
+    <label for="Nama">Masukin Nama Kamu yahh</label><br>
+    <input type="text" id="Nama" placeholder="Jangan salah yahh" required><br>
+    <label for="Email">Email jangan lupa ygy</label><br>
+    <input type= "text" id="Email" placeholder="Awas salah" required><br>
+    <label for="password">Password yang susah</label><br>
+    <input type="password" id="password" placeholder="Jangan Pake tanggal lahir yahh" required><br>
+    <label for="Konfirmasi">Konfirmasi Password</label><br>
+    <input type="password" id="ConfPassword" placeholder="Terakhir banget nih" required><br><br>
+    <button style="width: 150px; height: 30px;">Buat Akun</button> 
+</div> 
+
+
+</form>
+<div id="popup" style=" text-align:center; display: none; color:black; font-weight: bold; margin-top: 30px;">
+ <img  style=" text-align:center; height: 100px; width: 100px;"  src="C:\Users\imam\Pictures\stiker kuning.png" alt=""><br><br>Berhasil CUYY</div>
+
+
+<script>function cihuy() {document.getElementById('popup').style.display='block';
+setTimeout(function(){document.forms[0].submit();},2000); return false;}
+</script>
+
+</div>
+</body>
+</html>

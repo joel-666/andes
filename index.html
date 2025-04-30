@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form id="login" onsubmit="return gokil();" method="get" action="Profil.html">
+
+    <div style="text-align: center;"><h3> Ini Menu Login</h3>
+        <img style=" text-align:center 100px; width: 100px;" src="C:\Users\imam\Pictures\wowok.jpg" alt=""><br>
+
+    <div class="kotak"><label for="username">Silahkan Login Yagesya</label><br><br>
+    <input type="text" id="username" style="height: 30px;width: 300px;" placeholder="masukin username kamu yah" required><br>
+    <input type="password" id="password" style= "height: 30px; width: 300px;" placeholder="password kamu jangan lupa" required><br>
+    
+    <button style="width: 100px; height: 30px;" type="submit">Login</button></form>
+</div>
+    <p>Belum punya akun?</p>
+    <form id="register" onsubmit="return halo()" action="Bikin akun.html" method="get">
+
+    <button style="width: 150; height: 30px;">Bikin dulu gaksih</button>
+
+</form>
+</div>
+<div id="popup" style=" text-align:center; display: none; color:black; font-weight: bold; margin-top: 30px;"><img src="C:\Users\imam\Pictures\cihuy.png" style="width: 100px; height: 100px;" alt=""> <br>Cihuy Berhasil
+</div>
+
+<script>function gokil() {document.getElementById('popup').style.display='block';
+setTimeout(function(){document.getElementById('login').submit();},2000); return false;}
+</script>
+
+<div id="wait" style=" text-align:center; display: none; color:black; font-weight: bold; margin-top: 30px;"> <img src="C:\Users\imam\Pictures\cihuy.png" style="width: 100px; height: 100px;" alt=""><br>Sip tunggu dulu ygy
+</div>
+
+<script>function halo() {document.getElementById('wait').style.display='block';
+    setTimeout(function(){document.getElementById('register').submit();},2000); return false;}
+    </script>
+
+</body>
+</html>
