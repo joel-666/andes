@@ -1,0 +1,44 @@
+.materi {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    font-size: smaller;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.ch3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+    height: 20px;
+    padding: 10px;
+    margin-top: -10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.utama {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.teks {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    font-size: smaller;
+
+}
